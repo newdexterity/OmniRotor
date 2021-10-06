@@ -1,2 +1,14 @@
 # OmniRotor
-A coaxial, versatile, modular, tilt-rotor, all-terrain vehicle that can apply its full thrust in any direction.
+
+### Description:
+
+Micro Aerial Vehicles (MAV) with Vertical Takeoff and Landing (VTOL) capabilities, such as quadrotors, have offered significant value to many research fields and markets. However, only recently, MAV began to be explored as systems capable of interacting with the environment, performing manipulation tasks, and participating in more versatility-demanding operations. Pursuing the goal of turning flying machines into more versatile instruments, many researchers have resorted to using tilting rotor mechanisms to create new aerial vehicle concepts. Nevertheless, most such new concepts are bulky and lack the required versatility, and are restricted to particular applications. In this work, we address these issues by proposing a novel coaxial, versatile, modular tilt-rotor, all-terrain vehicle concept. 
+
+The OmniRotor platform can apply its full thrust in any direction, regardless of the frame's orientation where it is mounted. The platform does not have any limitations regarding rotation's range. It can change its thrust direction continuously without needing to unwind back to a specific configuration. With the addition of control surfaces between the coaxial rotors, the OmniRotor is turned into a functional VTOL MAV with hovering capabilities that can be used as a ground vehicle, a UAV, and an all-terrain vehicle.
+
+The OmniRotor can be used for search and rescue, environmental monitoring, infrastructure inspection, and aerial manipulation applications. 
+
+Given the aim of developing a rotor module capable of applying its full thrust in any direction, the more obvious solution is to place the rotors on a structure that rotates according to two perpendicular joints. Such a mechanism is called a gimbal, and it is largely employed in camera systems. The immediate limitation that arises from such an approach, however, is the wiring. Every active rotor tilting mechanism is limited to turn by how much its wire connections can wind around the rotating axis. The standard solution for these wiring constraints is solved by employing slip-rings, which are essentially rotary electric connections. Once again, this is common on gimbal camera stabilization systems. However, brushless electric motors used for propulsion systems tend to draw large amounts of electric current, leading to large and heavy slip-rings. This extra weight is undesirable and would limit the flight time and payload capacity of the vehicle considerably.
+
+![stand_picture](https://user-images.githubusercontent.com/47056430/133001807-073f2a0a-cb6e-4619-9b95-97e0e411af19.jpg)
+**Fig. 1**: The benchmarking platform designed to test coaxial rotors systems used on multirotor UAVs. Each side of the testing rig is equipped with force and torque sensors for measurements on one axis. Individual motor speed, applied voltage, and consumed electric current are also measured. Everything is integrated and controlled by a LabView interface, where both closed and open-loop experiments can be programmed.
