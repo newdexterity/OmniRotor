@@ -1,4 +1,5 @@
 # OmniRotor
+Paper: https://ieeexplore.ieee.org/abstract/document/9635995
 
 ### Description:
 
